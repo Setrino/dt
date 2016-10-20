@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+
+*{
+ background-color: #fffdf1;
+ font-family: Roboto;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.screen{
+    width: 350px;
+}
+
+.badges{
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 2%;
+}
+
+.badge{
+    width: 160px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.right{
+    float: right;
+    width: 50%;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+}
+
+h4, h5, li{
+    width: 60%;
+    color: #ACACAC;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+h4{
+    color: #2d415c;
+}
+
+li{
+    padding-top: 2%;
+}
+
+form{
+    padding: 5%;
+    padding-top: 2%;
+}
+
+input{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    font-size: 20px;
+    outline-width: 0;
+}
+
+input, button{
+    border-style: none;
+    color: #ACACAC;
+    padding: 2%;
+    border: 1px solid;
+}
+
+button{
+    width: 100px;
+    position: relative;
+    display: block;
+    font-size: 14px;
+    top: 15px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #2d415c;
+}
+
+.guide{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    padding: 10px;
+    border: 1px solid #ACACAC;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ACACAC;
+}
+
+.guide:hover{
+    color: #2d415c;
+    border: 1px solid #2d415c;
+}
+
+@media only screen and (max-width: 930px) {
+
+    body, .right, .left{
+        width: 100%;
+    }
+
+    body > div > div.left > div:nth-child(1) > img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .guide{
+        display: none;
+    }
+
+    .badges{
+        text-align: center;
+        display: block;
+    }
+
+    .badge{
+        display: inline-block;
+    }
+}
