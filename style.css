@@ -13,6 +13,10 @@ body{
     margin: 0 auto;
 }
 
+ul{
+    padding: 0 10px;
+}
+
 .screen{
     width: 350px;
 }
@@ -123,10 +127,6 @@ button:hover{
     body > div > div.left > div:nth-child(1) > img{
         display: block;
         margin: 0 auto;
-    }
-
-    ul{
-        padding: 0;
     }
 
     .guide{
