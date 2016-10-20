@@ -125,6 +125,10 @@ button:hover{
         margin: 0 auto;
     }
 
+    ul{
+        padding: 0;
+    }
+
     .guide{
         display: none;
     }
