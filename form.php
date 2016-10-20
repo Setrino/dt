@@ -11,7 +11,7 @@ $db = mysql_select_db(_DB_NAME, $connection) or die ('request "Unable to select 
 
 $data = array(
     'email' => "'".$_POST['email']."'",
-    //'date_subscribe' => 'NOW()',
+    'date_subscribe' => 'NOW()',
     'type' => "'".$_POST['type']."'",
 );
 
