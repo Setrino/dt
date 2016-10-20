@@ -137,4 +137,8 @@ button:hover{
     .badge{
         display: inline-block;
     }
+
+    input{
+        font-size: 17px;
+    }
 }
