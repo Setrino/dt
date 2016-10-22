@@ -107,12 +107,13 @@ button:hover{
 .guide{
     position: absolute;
     right: 1px;
-    top: 1px;
+    top: 25%;
     padding: 10px;
     border: 1px solid #ACACAC;
     border-radius: 5px;
     text-decoration: none;
     color: #ACACAC;
+    background-color: #eeefe8;
 }
 
 .guide:hover{
